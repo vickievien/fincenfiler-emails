@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Stay Compliant and Avoid Fines</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style media="all" type="text/css">
+    /* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+    body {
+        font-family: "Lato", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        font-size: 16px;
+        line-height: 1.3;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f5f6;
+    }
+    table {
+        border-collapse: separate;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%;
+    }
+    table td {
+        font-size: 16px;
+        vertical-align: top;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        margin: 0;
+    }
+    p {
+        font-family: "Lato", sans-serif;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    /* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+    .body {
+      background-color: #f4f5f6;
+      width: 100%;
+    }
+    
+    .container {
+      margin: 0 auto !important;
+      max-width: 600px;
+      padding: 0;
+      padding-top: 24px;
+      width: 600px;
+    }
+    
+    .content {
+      box-sizing: border-box;
+      display: block;
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 0;
+    }
+
+       /* -------------------------------------
+    CUSTOM CONTENT
+------------------------------------- */ 
+    .row-logo {
+        background-color: #336735;
+    }
+    .data-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0 0.5rem 0;
+    }
+    .logo {
+        width: 30%;
+    }
+    .data-benefits-title.section-1 {
+      background-color: #336735;
+    }
+    .data-benefits-title.section-1 h1,
+    .data-benefits-title.section-1 h4,
+    .data-benefits-title.section-1 h2,
+    .data-benefits-title.section-1 p {
+      color: white;
+      text-align: center;
+    }
+    .data-benefits-title h2.email-subheading {
+      margin-top: 0.5rem;
+      font-size: 1.4rem;
+    }
+    .row-btn.section-1 {
+      background-color: #336735;
+      
+    }
+    .row-btn.section-1 .btn-primary {
+      padding-bottom: 3rem;
+    }
+    .row-benefits-title.section-2 .data-benefits-title {
+      padding-top: 3rem;
+    }
+    .row-benefits-title.section-2 .data-benefits-title h2 {
+      color:#193d72;
+    }
+    .row-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 3rem 2rem 3rem;
+    }
+    .list-item {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem 1rem;
+      border-radius: 0.5rem;
+      gap: 0.25rem;
+    }
+    .list-item h3,
+    .list-item p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .list-item .benefit-icon-wrapper {
+      width: 40%;
+      margin-bottom: 0.75rem;
+    }
+    .row-benefits-title.section-3 {
+      background-color: #193d72;
+    }
+    .row-benefits-title.section-3 .data-benefits-title {
+      padding-top: 3rem;
+    }
+    .row-list.list-2 {
+      background-color: #193d72;
+      flex-direction: column;
+      gap: 0;
+    }
+    .row-benefits-title.section-3 .data-benefits-title h4,
+    .row-benefits-title.section-3 .data-benefits-title p {
+      color: white;
+    }
+    .row-benefits-title.section-3 .data-benefits-title h2 {
+      color:#c2dfc3;
+    }
+    .row-list.list-2 .list-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #193d72;
+      gap: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    .row-list.list-2 .list-item .benefit-icon-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      padding: 1rem;
+      border-radius: 1rem;
+      width: 35%;
+      margin-bottom: 0;
+    }
+    .row-list.list-2 .list-item .list-2-content-wrapper {
+      width: 65%;
+    }
+    .row-list.list-2 .list-item .list-2-content-wrapper h3,
+    .row-list.list-2 .list-item .list-2-content-wrapper p {
+      color: white;
+      text-align: left;
+    }
+    .row-list.list-2 .list-item .list-2-content-wrapper h3 {
+      color: #c2dfc3;
+    }
+    .data-benefits-title {
+        padding: 1.5rem 3rem 0 3rem;
+    }
+    .data-benefits-title h4 {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        color: red;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .data-benefits-title h2 {
+        font-size: 2rem;
+        text-transform: capitalize;
+        color:blue;
+        text-align: center;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+    .data-benefits-title p {
+        text-align: center;
+    }
+    .benefit-icon-wrapper {
+        width: 30%;
+    }
+    .benefit-icon {
+        display: block;
+        width:100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .data-benefit h3 {
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .data-benefit p {
+        text-align: center;
+        color: white;
+    }
+    .row-benefits-title.conclusion .data-benefits-title p:first-of-type {
+      font-size: 1.3rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+    }
+    .row-benefits-title.conclusion .data-benefits-title p:last-of-type span {
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    .row-btn {
+        margin: 0 auto;
+    }
+    .row-btn.section-3 .btn-primary{
+      background-color: #193d72;
+      padding-bottom: 3rem;
+    }
+    .btn-primary {
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        padding: 1rem 0;
+    }
+    /* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+    
+    .main {
+      background: #ffffff;
+      border: 1px solid #eaebed;
+      border-radius: 16px;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .wrapper {
+      box-sizing: border-box;
+      padding: 24px;
+    }
+    
+    .footer {
+      clear: both;
+      padding: 1.5rem 0;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .footer td,
+    .footer p,
+    .footer span,
+    .footer a {
+      color: #9a9ea6;
+      font-size: 16px;
+      text-align: center;
+    }
+    /* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+    
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    
+    a {
+      color: #981B1F;
+      text-decoration: underline;
+    }
+    /* -------------------------------------
+    BUTTONS
+------------------------------------- */
+    
+    .btn {
+      box-sizing: border-box;
+      min-width: 100%;
+      width: 100%;
+    }
+    
+    .btn > tbody > tr > td {
+      padding-bottom: 16px;
+    }
+    
+    .btn table {
+      width: auto;
+    }
+    
+    .btn table td {
+      background-color: #ffffff;
+      border-radius: 4px;
+      text-align: center;
+    }
+    
+    .btn a {
+      background-color: #ffffff;
+      border-radius: 4px;
+      box-sizing: border-box;
+      cursor: pointer;
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+
+    .btn-primary a {
+      background-color: red;
+      color: #ffffff;
+      transition: all ease-in-out 0.3s;
+      text-transform: uppercase;
+    }
+    .btn-primary a:hover {
+        background-color: #F15145;
+    }
+    
+    .preheader {
+      color: transparent;
+      display: none;
+      height: 0;
+      max-height: 0;
+      max-width: 0;
+      opacity: 0;
+      overflow: hidden;
+      mso-hide: all;
+      visibility: hidden;
+      width: 0;
+    }
+    
+    .powered-by a {
+      text-decoration: none;
+    }
+    
+    /* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+    
+    @media only screen and (max-width: 640px) {
+        .container {
+            padding-top: 0.5rem;
+        }
+        .data-hero h1 {
+            font-size: 2.5rem;
+        }
+        .row-list {
+          flex-direction: column;
+        }
+        .row-list.list-2 .list-item {
+          flex-direction: column;
+          align-items: center;
+        }
+        .row-list.list-2 .list-item .benefit-icon-wrapper {
+          width: 60%;
+        }
+        .row-list.list-2 .list-item .list-2-content-wrapper {
+          width: 100%;
+        }
+        .row-list.list-2 .list-item .list-2-content-wrapper h3,
+        .row-list.list-2 .list-item .list-2-content-wrapper p {
+          text-align: center;
+        }
+    }
+    /* -------------------------------------
+    PRESERVE THESE STYLES IN THE HEAD
+------------------------------------- */
+    
+    @media all {
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      .apple-link a {
+        color: inherit !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+      }
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+
+            <!-- START CENTERED WHITE CONTAINER -->
+            <span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr class="row-logo">
+                <td class="data-logo">
+                    <img class="logo" src="images/fincen-logo-white-text.png" alt="logo">
+                </td>
+              </tr>
+              <tr class="row-benefits-title">
+                <td class="data-benefits-title section-1">
+                  <h1>Stay Compliant and Avoid Fines!</h1>
+                  <h2 class="email-subheading">Hassle-Free FinCEN Reporting <br />for <em>ONLY $299</em></h2>  
+                    <p>Starting January 1, 2024, most U.S. entities must comply with the Corporate Transparency Act by filing a FinCEN Beneficial Owner Information (BOI) report. Non-compliance could cost your business $500/day in fines.</p>
+                    <p>And we're here to help. For $299, FinCEN Filer, LLC provides an end-to-end filing service, ensuring your compliance with ease. Our secure ISO/IEC 27001 online system makes the process straightforward, taking just 5-10 minutes to complete.</p>
+                </td>
+              </tr>
+              <tr class="row-btn section-1">
+                <td class="btn btn-primary"> 
+                    <a href="http://htmlemail.io" target="_blank">Buy Now</a>
+                </td>
+              </tr>
+              <tr class="row-benefits-title section-2">
+                <td class="data-benefits-title">
+                    <h2>Our service is designed to be:</h2>
+                </td>
+              </tr>
+              <tr class="row-list">                
+                <td class="list-item">
+                    <div class="benefit-icon-wrapper">
+                        <img class="benefit-icon" src="images/fincen-speed-dark-blue.png" alt="speed icon">
+                    </div>
+                    <h3>Simple & Easy</h3>
+                    <p>Quickly enter company and beneficial owner information through our intuitive platform.</p>
+                </td>
+                <td class="list-item">
+                  <div class="benefit-icon-wrapper">
+                      <img class="benefit-icon" src="images/fincen-secure-dark-blue.png" alt="speed icon">
+                  </div>
+                  <h3>Enhanced Security</h3>
+                  <p>Your data is protected with the highest security standards.</p>
+                </td>
+                <td class="list-item">
+                  <div class="benefit-icon-wrapper">
+                      <img class="benefit-icon" src="images/fincen-support-dark-blue.png" alt="speed icon">
+                  </div>
+                  <h3>Regular Reminders</h3>
+                  <p>We send monthly reminders to keep your FinCEN report up-to-date with any changes.</p>
+                </td>
+              </tr>
+              <tr class="row-benefits-title section-3">
+                <td class="data-benefits-title">
+                    <h4>Our Full-Service Offerings</h4>
+                    <h2>Compliance Made easy</h2>
+                    <p>Steer clear of penalties and simplify your compliance process with our efficient service. We handle everything for you by gathering all required information, preparing and filing your report, and managing any necessary amendments in just three straightforward steps.</p>
+                </td>
+              </tr>
+              <tr class="row-list list-2">                
+                <td class="list-item">
+                    <div class="benefit-icon-wrapper">
+                        <img class="benefit-icon" src="images/fincen-collection-dark-blue.png" alt="speed icon">
+                    </div>
+                    <div class="list-2-content-wrapper">
+                      <h3>Data Collection</h3>
+                      <p>We gather all required details about your company, beneficial owners, and the person who formed the company.</p>
+                    </div>
+                </td>
+                <td class="list-item">
+                  <div class="benefit-icon-wrapper">
+                      <img class="benefit-icon" src="images/fincen-filing-dark-blue.png" alt="speed icon">
+                  </div>
+                  <div class="list-2-content-wrapper">
+                    <h3>Preparation & Filing</h3>
+                    <p>We prepare your FinCEN report with precision, submit your report directly to FinCEN and send copies to you and beneficial owners.
+                    </p>
+                  </div>
+                </td>
+                <td class="list-item">
+                  <div class="benefit-icon-wrapper">
+                      <img class="benefit-icon" src="images/fincen-amendment-dark-blue.png" alt="speed icon">
+                  </div>
+                  <div class="list-2-content-wrapper">
+                    <h3>Amendment Filing</h3>
+                    <p>We handle any necessary amendments to your report, keeping you compliant.</p>
+                </div>
+                </td>
+              </tr>
+              <tr class="row-btn section-3">
+                <td class="btn btn-primary"> 
+                    <a href="http://htmlemail.io" target="_blank">Buy Now</a>
+                </td>
+              </tr>
+              
+              
+              
+
+              <!-- END MAIN CONTENT AREA -->
+              </table>
+
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content-block">
+                    <span class="apple-link">Company Inc, 7-11 Commercial Ct, Belfast BT1 2NB</span>
+                    <br> Don't like these emails? <a href="http://htmlemail.io/blog">Unsubscribe</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="content-block powered-by">
+                    Powered by <a href="http://htmlemail.io">HTMLemail.io</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- END FOOTER -->
+            
+<!-- END CENTERED WHITE CONTAINER --></div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
